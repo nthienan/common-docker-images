@@ -12,7 +12,7 @@ if [ "$MODE" = 'build' ]; then
     docker pull $IMAGE:$VERSION || true
     docker build --pull --cache-from $IMAGE:$VERSION -t $IMAGE:$VERSION .
     status=$?
-    if [ "$status" -ne "0" ] then
+    if [ "$status" -ne "0" ]; then
       exit 1
     fi
 fi
