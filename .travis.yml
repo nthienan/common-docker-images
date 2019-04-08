@@ -16,7 +16,7 @@ before_deploy:
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD
 deploy:
   - provider: script
-    script: ./builder.sh deploy$IMAGE $VERSION
+    script: ./builder.sh deploy $IMAGE $VERSION
     on:
       branch: master
 after_deploy:
