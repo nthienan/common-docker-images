@@ -4,7 +4,7 @@ services:
   - docker
 env:
   matrix:
-    - IMAGE=nthienan/alpine VERSION=3.9.2-1 DIR=alpine
+    - IMAGE=nthienan/alpine VERSION=3.9.2-2 DIR=alpine
 install: true
 
 script:
