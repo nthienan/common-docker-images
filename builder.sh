@@ -11,6 +11,10 @@ if [ "$MODE" = 'build' ]; then
     echo -e "\nBuilding $IMAGE:$VERSION..."
     docker pull $IMAGE:$VERSION || true
     docker build --pull --cache-from $IMAGE:$VERSION -t $IMAGE:$VERSION .
+    status=$?
+    if [ "$status" -ne "0" ] then
+      exit 1
+    fi
 fi
 if [ "$MODE" = "deploy" ]; then
     echo -e '\nDeploying...'
