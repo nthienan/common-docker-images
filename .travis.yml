@@ -5,6 +5,7 @@ services:
 env:
   matrix:
     - IMAGE=nthienan/alpine VERSION=3.9.2-2 DIR=alpine
+    - IMAGE=nthienan/jenkins VERSION=2.176-1 DIR=jenkins
 install: true
 
 script:
