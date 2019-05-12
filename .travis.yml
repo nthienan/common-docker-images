@@ -6,6 +6,7 @@ env:
   matrix:
     - IMAGE=nthienan/alpine VERSION=3.9.2-2 DIR=alpine
     - IMAGE=nthienan/jenkins VERSION=2.176-2 DIR=jenkins
+    - IMAGE=nthienan/grafana VERSION=6.1.6-1 DIR=grafana
 install: true
 
 script:
