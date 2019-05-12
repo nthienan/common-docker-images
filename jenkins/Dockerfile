@@ -23,7 +23,7 @@ RUN mkdir $CASC_JENKINS_CONFIG && \
       resource-disposer:0.12 \
       structs:1.19 \
       build-timestamp:1.0.3 \
-      github-autostatus:3.4 \
+      github-autostatus:3.2 \
       jenkins-jira-issue-updater:1.18 \
       blueocean-autofavorite:1.2.4 \
       workflow-basic-steps:2.15 \
