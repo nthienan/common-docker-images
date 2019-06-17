@@ -7,6 +7,7 @@ env:
     - IMAGE=nthienan/alpine VERSION=3.9.2-2 DIR=alpine
     - IMAGE=nthienan/jenkins VERSION=2.176-2 DIR=jenkins
     - IMAGE=nthienan/grafana VERSION=6.1.6-1 DIR=grafana
+    - IMAGE=nthienan/yamllint VERSION=1.16.0-1 DIR=yamllint
 install: true
 
 script:
