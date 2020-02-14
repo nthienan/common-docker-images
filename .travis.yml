@@ -7,7 +7,7 @@ env:
     - IMAGE=nthienan/alpine VERSION=3.9.2-2 DIR=alpine
     - IMAGE=nthienan/grafana VERSION=6.1.6-1 DIR=grafana
     - IMAGE=nthienan/yamllint VERSION=1.16.0-1 DIR=yamllint
-    - IMAGE=nthienan/jnlp-slave VERSION=3.40-1-jdk11-1 DIR=jnlp-slave
+    - IMAGE=nthienan/jnlp-slave VERSION=3.40-1-jdk11-2 DIR=jnlp-slave
 install: true
 
 script:
