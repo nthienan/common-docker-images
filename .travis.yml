@@ -8,6 +8,7 @@ env:
     - IMAGE=nthienan/grafana VERSION=6.1.6-1 DIR=grafana
     - IMAGE=nthienan/yamllint VERSION=1.16.0-1 DIR=yamllint
     - IMAGE=nthienan/jnlp-slave VERSION=3.40-1-jdk11-4 DIR=jnlp-slave
+    - IMAGE=nthienan/trivy-jenkins-agent VERSION=0.11.0-1-agent4.3-9-alpine DIR=trivy-jenkins-agent
 install: true
 
 script:
