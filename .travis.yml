@@ -10,6 +10,7 @@ env:
     - IMAGE=nthienan/jnlp-slave VERSION=3.40-1-jdk11-4 DIR=jnlp-slave
     - IMAGE=nthienan/trivy-jenkins-agent VERSION=0.11.0-1-agent4.3-9-alpine DIR=trivy-jenkins-agent
     - IMAGE=nthienan/awscli-jenkins-agent VERSION=2.0.50-1-agent4.3-9-alpine DIR=awscli-jenkins-agent
+    - IMAGE=nthienan/prometheus-ecs-discovery VERSION=v1.3.1-1 DIR=prometheus-ecs-discovery
 install: true
 
 script:
